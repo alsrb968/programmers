@@ -1,4 +1,4 @@
-class MineralMining {
+class 자원캐기 {
     companion object {
         private val ELEMENT_STONE = 0
         private val ELEMENT_IRON = 1
@@ -95,7 +95,7 @@ class MineralMining {
 }
 
 fun main() {
-    val solution = MineralMining()
+    val solution = 자원캐기()
 
     println(
         solution.solution(

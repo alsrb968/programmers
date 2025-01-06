@@ -1,6 +1,6 @@
 import java.util.ArrayDeque
 
-class RicochetRobot {
+class 리코쳇로봇 {
     data class Coord(
         var r: Int,
         var c: Int,
@@ -83,7 +83,7 @@ class RicochetRobot {
 }
 
 fun main() {
-    val solution = RicochetRobot()
+    val solution = 리코쳇로봇()
     println(
         solution.solution(
             arrayOf(
